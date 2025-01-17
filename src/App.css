@@ -1,0 +1,193 @@
+/* Global Reset for Overflow */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-family: Arial, sans-serif;
+  
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* Navbar Header */
+.dev-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #1a202c !important; /* Dark background color */
+  color: #fff;
+  width: 100%; /* Ensure full width within viewport */
+  overflow: hidden; 
+  margin-bottom:50px;/* No horizontal overflow */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.version {
+  font-size: 16px;
+  font-weight: bold;
+  color: #61dafb; /* React blue color */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #2d3748;
+  border-radius: 8px;
+  padding: 5px 10px;
+  flex-grow: 1;
+  margin: 0 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  width: 100%; /* Ensure responsive behavior */
+}
+
+.search-input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.search-shortcut {
+  color: #a0aec0;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  text-decoration: none;
+  color:white;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #fff;
+}
+
+.icon {
+  margin: 0 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color:white;
+}
+
+.icon:hover {
+  color: #61dafb;
+}
+/* Sidebar Styling */
+.sidebar {
+  background-color: #343a40; /* Dark background */
+  color: #fff; /* Light text */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Scrollbar for sidebar */
+  padding-top: 20px;
+  margin-top:20px;
+}
+
+.sidebar .nav-item {
+  margin-bottom: 10px;
+}
+
+.sidebar .nav-link {
+  color: #d1d1d1; /* Lighter text for links */
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057; /* Hover background */
+  color: #fff; /* Hover text color */
+}
+
+/* Main Content Styling */
+.content {
+  padding: 20px;
+  overflow-y: auto; /* Ensure the content has its own scroll behavior */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Remove margins and paddings for body */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/* installation page css */
+/* src/InstallationPage.css */
+.installation-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin:0px 50px;
+  padding:5px;
+}
+
+header {
+  text-align:left;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.install-methods {
+  margin-top: 30px;
+}
+
+.install-method h3 {
+  font-size: 1.8rem;
+}
+
+.install-method pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+.content {
+  padding-top: 20px; /* Adjust padding to space out the content a bit more */
+}
+/* ui page css */
+/* src/DescriptionPage.css */
+

@@ -1,0 +1,91 @@
+
+/* FirstPageView.css */
+
+/* General Page Style */
+.page {
+     padding: 20px;
+     font-family: Arial, sans-serif;
+   }
+   
+   /* Hero Section */
+   .hero-section {
+     text-align: center;
+     background-color: #007bff;
+     color: white;
+     padding: 50px 20px;
+   }
+   
+   .hero-title {
+     font-size: 48px;
+     font-weight: bold;
+     margin: 0 0 20px;
+   }
+   
+   .hero-subtitle {
+     font-size: 20px;
+     margin-bottom: 30px;
+   }
+   
+   .cta-button {
+     padding: 15px 30px;
+     background-color: #ff9900;
+     color: white;
+     text-decoration: none;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: bold;
+   }
+   
+   /* About Section */
+   .about-section {
+     margin: 40px 0;
+     text-align: center;
+   }
+   
+   .section-title {
+     font-size: 32px;
+     font-weight: bold;
+     margin-bottom: 20px;
+   }
+   
+   /* Features Section */
+   .features-section {
+     background-color: #f4f4f4;
+     padding: 40px 0;
+   }
+   
+   .features-container {
+     display: flex;
+     justify-content: space-around;
+     gap: 20px;
+   }
+   
+   .feature-card {
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     width: 30%;
+   }
+   
+   /* Layout Specific Styles */
+   header {
+     background-color: #333;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+   }
+   
+   header h1 {
+     margin: 0;
+   }
+   
+   nav a {
+     color: white;
+     margin: 0 10px;
+     text-decoration: none;
+   }
+   
+  
+   
